@@ -1,0 +1,34 @@
+# API framework
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.4
+
+# Data handling
+pandas==2.2.3
+numpy==1.26.4
+
+# Embeddings & vector search
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+
+# Config selector 
+scikit-learn==1.6.0
+joblib==1.4.2
+
+# NLI / hallucination detection
+transformers==4.47.1
+torch==2.5.1
+
+# LLM API calls 
+groq==0.15.0
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.67.1
+
+# Notebooks
+jupyter==1.1.1
+matplotlib==3.10.0
+
+# Testing
+pytest==8.3.4

@@ -1,0 +1,41 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Trained models / large files
+*.pkl
+*.pt
+*.pth
+*.bin
+src/config_selector/selector_model.pkl
+
+# Data (raw docs may be copyrighted / large)
+data/raw_docs/
+*.faiss
+*.index
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frontend (React + Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
