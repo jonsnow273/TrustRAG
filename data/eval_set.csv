@@ -1,0 +1,14 @@
+question,expected_answer,source_doc
+"When was the Turing Test first proposed?","1950",Turing_test.txt
+"What is a perceptron?","An early type of artificial neural network / linear classifier",Perceptron.txt
+"What game did Deep Blue famously win, and against whom?","Chess, against world champion Garry Kasparov",Deep_Blue_(chess_computer).txt
+"What dataset did AlexNet compete on in 2012?","ImageNet (ILSVRC competition)",AlexNet.txt
+"What paper introduced the Transformer architecture?","'Attention Is All You Need' (2017)",Transformer_(deep_learning_architecture).txt
+question,expected_answer,source_doc
+"When was the field of AI research founded, and where?",1956 at Dartmouth College,History_of_artificial_intelligence.txt
+"Who presented the first AI program at the Dartmouth workshop?",Allen Newell and Herbert A. Simon (with J.C. Shaw),History_of_artificial_intelligence.txt
+"What game did Deep Blue famously win, and against whom?",Chess, against world champion Garry Kasparov in 1996/1997,Deep_Blue_(chess_computer).txt
+"What competition did AlexNet win in 2012?",The ImageNet (ILSVRC) competition,AlexNet.txt
+"What paper introduced the Transformer architecture, and when?","'Attention Is All You Need', 2017",Transformer_(deep_learning_architecture).txt
+"What technological shift after 2012 increased AI funding and interest?",The use of GPUs to accelerate neural networks and deep learning outperforming prior techniques,Timeline_of_artificial_intelligence.txt
+"What accelerated AI growth further after 2017?",The introduction of the Transformer architecture,Timeline_of_artificial_intelligence.txt
