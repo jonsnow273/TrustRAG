@@ -168,4 +168,8 @@ TrustRAG is evaluated on two fronts:
 
 ---
 
+LICENSE -- MIT
+
+---
+
 made by -- pranit bharat more 🐐
