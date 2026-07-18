@@ -1,0 +1,60 @@
+question,question_type,source_doc,best_chunk_size,best_top_k,best_hit_rate
+When was the Turing Test first proposed?,factual,Turing_test.txt,150,5,0.8
+What did Alan Turing propose as a way to test machine intelligence?,definitional,Turing_test.txt,150,5,0.8
+What is a perceptron and who invented it?,definitional,Perceptron.txt,150,3,1.0
+Why did early perceptrons fail to solve certain problems?,factual,Perceptron.txt,300,3,0.6666666666666666
+What caused the first AI winter?,factual,AI_winter.txt,150,3,0.6666666666666666
+How did the first AI winter differ from the second AI winter?,comparative,AI_winter.txt,150,3,0.6666666666666666
+What was Deep Blue and what did it achieve?,factual,Deep_Blue_(chess_computer).txt,150,3,1.0
+How did Deep Blue's victory affect public perception of AI?,factual,Deep_Blue_(chess_computer).txt,300,3,0.6666666666666666
+What made AlexNet a breakthrough in image recognition?,factual,AlexNet.txt,150,5,0.8
+How did AlexNet's approach compare to earlier image recognition methods?,comparative,AlexNet.txt,150,5,0.8
+What is the Transformer architecture and why was it significant?,definitional,Transformer_(deep_learning_architecture).txt,500,3,1.0
+How did the Transformer architecture change how language models are built?,factual,Transformer_(deep_learning_architecture).txt,150,3,1.0
+What role did ImageNet play in advancing deep learning?,factual,ImageNet.txt,500,3,0.6666666666666666
+What is an expert system and how does it differ from modern machine learning?,comparative,Expert_system.txt,150,3,1.0
+"What is machine learning, broadly defined?",definitional,Machine_learning.txt,150,3,1.0
+What key developments connect perceptrons to modern transformers?,multi-hop,"Perceptron.txt,Transformer_(deep_learning_architecture).txt",150,3,0.0
+How did AI winters affect funding and progress in the field over time?,multi-hop,"AI_winter.txt,Timeline_of_artificial_intelligence.txt",150,3,0.0
+What major milestones are captured in the timeline of AI development?,factual,Timeline_of_artificial_intelligence.txt,500,5,0.2
+How did expert systems contribute to (or fail to prevent) an AI winter?,multi-hop,"Expert_system.txt,AI_winter.txt",150,3,0.0
+What is the overall historical arc of AI from its origins to today?,multi-hop,"History_of_artificial_intelligence.txt,Timeline_of_artificial_intelligence.txt",150,3,0.0
+question,question_type,source_doc,150,3,0.0
+When and where was the field of AI research founded?,factual,History_of_artificial_intelligence.txt,150,3,1.0
+Who presented the first AI program at the Dartmouth workshop?,factual,History_of_artificial_intelligence.txt,150,3,1.0
+What early non-digital robots were built in the 1950s?,factual,History_of_artificial_intelligence.txt,150,3,1.0
+How did AI's founding at Dartmouth relate to earlier work by Alan Turing?,multi-hop,"History_of_artificial_intelligence.txt,Turing_test.txt",150,3,0.0
+When was the Turing Test first proposed and by whom?,factual,Turing_test.txt,300,5,0.8
+What question did Turing's original paper try to answer?,definitional,Turing_test.txt,150,3,1.0
+What is a perceptron and who is credited with developing it?,definitional,Perceptron.txt,150,3,1.0
+Why did perceptrons fall out of favor in AI research?,factual,Perceptron.txt,300,3,0.6666666666666666
+How does a perceptron relate to modern neural networks?,multi-hop,"Perceptron.txt,Transformer_(deep_learning_architecture).txt",150,3,0.0
+What triggered AI winters historically?,factual,AI_winter.txt,500,3,0.6666666666666666
+"How many major AI winters have there been, and roughly when?",factual,AI_winter.txt,150,3,0.6666666666666666
+How did the field recover from AI winters over time?,comparative,"AI_winter.txt,History_of_artificial_intelligence.txt",150,3,0.0
+What was Deep Blue and what historic match did it win?,factual,Deep_Blue_(chess_computer).txt,150,3,1.0
+"Who did Deep Blue defeat, and in what year?",factual,Deep_Blue_(chess_computer).txt,150,3,1.0
+Why was Deep Blue's win considered symbolically important for AI?,factual,Deep_Blue_(chess_computer).txt,150,3,1.0
+"What competition did AlexNet win, and in what year?",factual,AlexNet.txt,150,3,0.6666666666666666
+How did AlexNet change the field of image recognition?,factual,AlexNet.txt,150,5,0.8
+What made AlexNet's approach different from earlier computer vision techniques?,comparative,AlexNet.txt,150,3,1.0
+"What paper introduced the Transformer architecture, and when?",factual,Transformer_(deep_learning_architecture).txt,150,3,1.0
+Why was the Transformer architecture significant for AI progress?,factual,Transformer_(deep_learning_architecture).txt,150,3,0.6666666666666666
+How did the Transformer architecture influence AI development after 2017?,factual,Transformer_(deep_learning_architecture).txt,150,3,0.0
+What is ImageNet and what role did it play in AI research?,definitional,ImageNet.txt,150,3,1.0
+How did ImageNet enable breakthroughs like AlexNet?,multi-hop,"ImageNet.txt,AlexNet.txt",150,3,0.0
+What is an expert system?,definitional,Expert_system.txt,150,3,1.0
+How do expert systems differ from machine learning-based AI?,comparative,"Expert_system.txt,Machine_learning.txt",150,3,0.0
+What role did expert systems play before an AI winter occurred?,multi-hop,"Expert_system.txt,AI_winter.txt",150,3,0.0
+"What is machine learning, broadly defined?",definitional,Machine_learning.txt,150,3,1.0
+How does machine learning differ from earlier rule-based AI approaches?,comparative,"Machine_learning.txt,Expert_system.txt",150,3,0.0
+What year was AI founded as an academic discipline?,factual,Timeline_of_artificial_intelligence.txt,150,3,0.0
+What major milestones happened in AI during the 1950s?,factual,Timeline_of_artificial_intelligence.txt,500,5,0.2
+What caused funding and interest in AI to increase substantially after 2012?,factual,Timeline_of_artificial_intelligence.txt,150,3,0.0
+How did the rise of GPUs affect AI progress after 2012?,factual,Timeline_of_artificial_intelligence.txt,150,3,0.0
+What happened in AI after 2017 that accelerated growth further?,factual,Timeline_of_artificial_intelligence.txt,150,3,0.0
+How does the timeline of AI reflect cycles of optimism and AI winters?,multi-hop,"Timeline_of_artificial_intelligence.txt,AI_winter.txt",150,3,0.0
+What is the overall arc of AI's development from the 1950s to today?,multi-hop,"History_of_artificial_intelligence.txt,Timeline_of_artificial_intelligence.txt",150,3,0.0
+"How did perceptrons, expert systems, and transformers each represent different eras of AI thinking?",multi-hop,"Perceptron.txt,Expert_system.txt,Transformer_(deep_learning_architecture).txt",150,3,0.0
+"What connects Deep Blue's chess victory to AlexNet's image recognition breakthrough, in terms of AI progress?",multi-hop,"Deep_Blue_(chess_computer).txt,AlexNet.txt",150,3,0.0
+How did the Dartmouth workshop set expectations that later contributed to an AI winter?,multi-hop,"History_of_artificial_intelligence.txt,AI_winter.txt",150,3,0.0
