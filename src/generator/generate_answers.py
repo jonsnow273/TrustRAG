@@ -7,7 +7,7 @@ from retriever import retriever
 
 load_dotenv()
 
-API_KEY = os.getenv("GROQ_API_KEY")
+API_KEY = os.getenv("API_KEY")
 client = Groq(api_key=API_KEY)
 
 
