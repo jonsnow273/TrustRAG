@@ -46,7 +46,6 @@ question,question_type,source_doc
 "What is an expert system?",definitional,Expert_system.txt
 "How do expert systems differ from machine learning-based AI?",comparative,"Expert_system.txt,Machine_learning.txt"
 "What role did expert systems play before an AI winter occurred?",multi-hop,"Expert_system.txt,AI_winter.txt"
-"What is machine learning, broadly defined?",definitional,Machine_learning.txt
 "How does machine learning differ from earlier rule-based AI approaches?",comparative,"Machine_learning.txt,Expert_system.txt"
 "What year was AI founded as an academic discipline?",factual,Timeline_of_artificial_intelligence.txt
 "What major milestones happened in AI during the 1950s?",factual,Timeline_of_artificial_intelligence.txt

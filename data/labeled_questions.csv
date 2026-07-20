@@ -46,7 +46,6 @@ How did ImageNet enable breakthroughs like AlexNet?,multi-hop,"ImageNet.txt,Alex
 What is an expert system?,definitional,Expert_system.txt,150,3,1.0
 How do expert systems differ from machine learning-based AI?,comparative,"Expert_system.txt,Machine_learning.txt",150,3,0.0
 What role did expert systems play before an AI winter occurred?,multi-hop,"Expert_system.txt,AI_winter.txt",150,3,0.0
-"What is machine learning, broadly defined?",definitional,Machine_learning.txt,150,3,1.0
 How does machine learning differ from earlier rule-based AI approaches?,comparative,"Machine_learning.txt,Expert_system.txt",150,3,0.0
 What year was AI founded as an academic discipline?,factual,Timeline_of_artificial_intelligence.txt,150,3,0.0
 What major milestones happened in AI during the 1950s?,factual,Timeline_of_artificial_intelligence.txt,500,5,0.2
