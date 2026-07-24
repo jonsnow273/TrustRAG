@@ -1,9 +1,6 @@
 from groq import Groq
 import os
 from dotenv import load_dotenv
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", "retriever"))
-from retriever import retriever
 
 load_dotenv()
 
@@ -11,8 +8,7 @@ API_KEY = os.getenv("API_KEY")
 client = Groq(api_key=API_KEY)
 
 
-def generate_answer(question, top_k=3):
-    chunks = retriever(question, top_k=top_k)
+def generate_answer(question, chunks):
     context = " ".join([c["text"] for c in chunks])
 
     response = client.chat.completions.create(
@@ -35,9 +31,11 @@ def generate_answer(question, top_k=3):
     )
 
     answer = response.choices[0].message.content
-    return answer, chunks
+    return answer
 
 
 if __name__ == "__main__":
-    answer, chunks = generate_answer("What is perceptron?", top_k=3)
+    from retriever.retriever import retriever  # only needed for standalone testing
+    test_chunks = retriever("What is perceptron?", top_k=3, chunk_size=300)
+    answer = generate_answer("What is perceptron?", test_chunks)
     print(answer)
