@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
 
 from pipeline import run_pipeline
+from fastapi.middleware.cors import CORSMiddleware
 from api.schemas import QuestionRequest, AnswerResponse
 
 app = FastAPI()
