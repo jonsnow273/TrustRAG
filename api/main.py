@@ -9,6 +9,13 @@ from api.schemas import QuestionRequest, AnswerResponse
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.post("/ask", response_model=AnswerResponse)
 def answer_question(request: QuestionRequest):
