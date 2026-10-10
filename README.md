@@ -172,4 +172,4 @@ LICENSE -- MIT
 
 ---
 
-made by -- pranit bharat more 🐐
+made by -- pranit 🐐
